@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title> pastry shop </title>
+</head>
+
+
+<frameset rows="43%,*" border= "20" frameborder="1">
+<frame src="sp.html"  name="f1" />
+<frameset cols="40%,*" border= "20" frameborder="1">
+
+<frame src="feedback.html"  name="f3" />
+<frame src="fortune cookies.html"  name="f2" />
+</frameset>
+</frameset>
+<noframes>
+<body>Your browser does not support frames.</body>
+</noframes>
+</html>
+
+
+

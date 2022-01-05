@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<title>juice and drinks</title>
+<style>
+li{
+color: black;
+}
+ul.main{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid blue;
+  background-color: teal;
+}
+
+li a{
+float:left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 55px;
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: silver;
+}
+
+div.up{
+text-transform: uppercase;
+}
+body
+{
+  background : url("jbac.jpg");
+  background-repeat:no-repeat;
+    background-size:cover;
+}
+
+</style>
+</head>
+<body   >
+<center><h1><font color="navy">WELCOME TO PASTRY SHOP</font></h1></center>
+<img src="jus.jpg"  align="right" border="4" width="400" height="300" />
+<H2>Flavors available :</H2>
+<div class="up">
+<ol type="1">
+    <li>FANTA...............................................................................................Rs. 300</li>
+    <li>coke.................................................................................................Rs. 300</li>
+    <li>Pineapple juice...........................................................................Rs. 500</li>
+    <li>Vanilla shake.............................................................................Rs. 800</li>
+    <li>Butterscotch shake..............................................................Rs. 800</li>
+    <li>Mango juice ................................................................................Rs. 500</li>
+    <li>Carrot juice................................................................................Rs. 500</li>
+    <li>Caramel chocolate shake.................................................Rs. 900</li>
+    <li>orange juice...............................................................................Rs. 500</li>
+    <li>mixed berries.............................................................................Rs. 900</li>
+    <li>Strawberry juice.....................................................................Rs. 900</li>
+    <li>lemon mint..................................................................................Rs. 500</li>
+</ol>
+</div>
+<br>
+
+
+
+<center><button onclick="order()">ORDER</button></center>
+
+<script src="calc3.js"></script>
+<br/>
+<marquee direction="right"><img src="logo.jpg" width="160" height="100" alt="not found" border="3" /></marquee><br/>
+  <marquee direction="right"><font color="teal">"The World of Pastries "</font>
+</marquee>
+
+<ul class="main">
+    <div class="topnav">
+      <li>  <a href="a.html">Home</a></li>
+    <li>  <a  href="cake.html">Cake</a></li>
+      <li><a href="jav.html">Ice cream </a></li>
+      <li><a class="active" href="juice.html">Juices and Drinks</a></li>
+     <li> <a href="sand.html">Sandwiches</a></li>
+     <li> <a  href="sp.html">Soups</a></li>
+     <li> <a  href="frame.html">Feedback</a></li>
+    </div>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<title>one</title>
+
+<script>
+function validate()
+{
+var for=document.getElementById("form");
+var name=document.getElementById("user");
+var mail=document.getElementById("mail");
+var pass1=document.getElementById("pass");
+var pass2=document.getElementById("pass1");
+var num=document.getElementById("num");
+
+
+if(name.value==" ")
+alert("Name Field is empty");
+if(num.value==" ")
+document.getElementById("fil1").innerHTML="Field is empty";
+
+if(mail.value==" ")
+document.getElementById("fil1").innerHTML="Field is empty";
+
+if(pass1.value==" ")
+document.getElementById("fil1").innerHTML="Field is empty";
+
+if(pass1.value ==" ")
+document.getElementById("fil1").innerHTML="Field is empty";
+
+
+}
+
+</script>
+</head>
+<body>
+<center><font color="green"><h1>Registration Form</h1></font></center>
+<hr>
+
+<form  onsubmit="return(validate());"  id="form">
+<div>
+<label id="user" >User name</label>
+<input type="text"  name="nam"  size="25" id="user"/ >
+</div>
+<div>
+<label id="mail" >Mail Id</label>
+<input type="mail" size="25" name="id"  id="mail" placeholder="xyz@gmail.com"  title="Email ID should have the value ‘@gmail.com’"  />
+</div>
+<div>
+<label id="pass" >Password</label>
+<input type="password" size="25" id="pass" value=""/ >
+</div>
+<div>
+<label id="pass1" >Retype password</label>
+<input type="password" id="pass1" name="word1"  value="" size="25" />
+</div>
+<div>
+<label id="num" >Mobile Number</label>
+<input type="tel" size="25" name="mob"  id="num" />
+</div>
+<center><input type="submit" value="Button"></center>
+</form>
+</body>
+</html>

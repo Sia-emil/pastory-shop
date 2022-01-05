@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>cjav</title>
+<style>
+li{
+color: navy;
+}
+
+</style>
+</head>
+<body  background="cc.jpg" >
+<center><h1><font color="navy">WELCOME TO PASTRY SHOP</font></h1></center>
+<H2>Flavors available :</H2>
+<img src="cake.jpg"  align="right" border="4" width="300" height="300" />
+<ol type="1">
+    <li>Chocolate cake.......................................................................Rs. 500</li>
+    <li>Black Forest Cake..................................................................Rs. 1500</li>
+    <li>Pineapple Cake......................................................................Rs. 500</li>
+    <li>Vanilla Cake...........................................................................Rs. 500</li>
+    <li>Butterscotch Cake..................................................................Rs. 1500</li>
+    <li>Red Velvet Cake .....................................................................Rs. 2500</li>
+        <li>   Carrot Cake.......................................................................Rs. 700</li>
+   <li>   Caramel Cake.........................................................................Rs. 500</li>
+   <li>   Neapolitan Cake with Frosting Rosettes............................Rs. 2700</li>
+   <li>   Apple teacake.........................................................................Rs. 2500</li>
+<li>  Fruitcake......................................................................................Rs. 900</li>
+<li>  Strawberry mousse cake...........................................................Rs. 2300</li>
+<li>   Fudgy Chocolate Meringue Cake...........................................Rs. 2800</li>
+</ol>
+
+<br>
+
+
+
+<center><button onclick="order()">ORDER</button></center>
+
+<script src="calc2.js"></script>
+</body>
+</html>

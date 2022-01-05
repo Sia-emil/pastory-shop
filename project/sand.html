@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<title>sandwich</title>
+<style>
+li{
+color: black;
+}
+ul.main{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid blue;
+  background-color: teal;
+}
+
+li a{
+float:left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 55px;
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: silver;
+}
+body
+{
+  margin-right: 5px;
+}
+
+
+
+</style>
+</head>
+<body bgcolor="#d9b3ff">
+<center><h1><font color="navy">WELCOME TO PASTRY SHOP</font></h1></center>
+<img src="sand.jpg"  align="right" border="4" width="300" height="300" alt="not found" />
+<H2><font color="brown"> Sandwiches Available :</font></H2>
+<div class="up">
+<ol type="1">
+    <li><b>Harvest Chicken Salad</b>...........................................................................................................<font color="navy">Rs. 750</font><br/>
+    <i>(Chicken salad with cranberries and pecans, spring mix and tomato on croissant.)</i></li>
+    
+     <li><b>Four Cheese Melt</b>.....................................................................................................................<font color="navy">Rs. 650</font><br/>
+      <i>(Provolone, Swiss, cheddar, Parmesan and tomato on toasted ciabatta.)</i></li>
+    
+    
+    
+     <li><b>Sweet Chipotle Chicken</b>...........................................................................................................<font color="navy">Rs. 880</font><br/>
+      <i>(Grilled chicken, sharp cheddar and spicy sweet chipotle peach sauce on toasted ciabatta.)</i></li>
+    
+    
+     <li><b>Spicy Southwest Chicken</b>.........................................................................................................<font color="navy">Rs. 880</font><br/>
+      <i>(Grilled chicken, roasted corn, poblano and black bean relish, pepper jack, avocado and chipotle ranch on toasted jalapeño roll.)</i></li>
+    
+     <li><b>The Veggie</b>..................................................................................................................................<font color="navy">Rs. 750</font><br/>
+      <i>(Spinach, tomato, cucumber, red onion, house-roasted multicolored peppers, avocado and herb mayo.) </i></li>
+    
+     
+        
+</ol>
+</div>
+<br>
+
+
+
+<center><button onclick="order()">ORDER</button></center>
+<br/>
+<marquee direction="right"><img src="logo.jpg" width="160" height="100" alt="not found" border="3" /></marquee><br/>
+  <marquee direction="right"><font color="teal">"The World of Pastries "</font>
+</marquee>
+
+<script src="calc4.js"></script>
+<ul class="main">
+    <div class="topnav">
+      <li>  <a  href="a.html">Home</a></li>
+    <li>  <a  href="cake.html">Cake</a></li>
+      <li><a href="jav.html">Ice cream </a></li>
+      <li><a  href="juice.html">Juices and Drinks</a></li>
+     <li> <a class="active" href="sand.html">Sandwiches</a></li>
+     <li> <a  href="sp.html">Soups</a></li>
+     <li> <a  href="frame.html">Feedback</a></li>
+    </div>
+    </ul>
+</body>
+</html>

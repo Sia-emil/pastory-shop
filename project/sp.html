@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<title>soup</title>
+<style>
+li{
+color: black;
+}
+ul.main{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid blue;
+  background-color: teal;
+}
+
+li a{
+float:left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 55px;
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: silver;
+}
+body
+{
+  margin-right: 5px;
+}
+
+
+
+</style>
+</head>
+<body bgcolor="#d9b3ff">
+  <img src="soup.jpg"  align="right" border="4" width="300" height="300" alt="not found" />
+<center><h1><font color="navy">WELCOME TO PASTRY SHOP</font></h1></center>
+
+<H2><font color="brown"> Soups Available :</font></H2>
+<div class="up">
+<ol type="1">
+    <li><b>Chicken Noodle Soup </b>...........................................................................................................<font color="navy">Rs. 750</font><br/></li>
+    
+     <li><b>Italian meatball soup</b>.....................................................................................................................<font color="navy">Rs. 650</font><br/></li>
+    
+    
+    
+     <li><b>Coconut Curry Soup with Chicken </b>...........................................................................................................<font color="navy">Rs. 880</font><br/>
+   </i></li>
+    
+    
+     <li><b>Tomato Bisque with Fried Cheese </b>.........................................................................................................<font color="navy">Rs. 880</font><br/>
+    </li>
+    
+    
+     
+        
+</ol>
+</div>
+<br>
+
+
+
+<center><button onclick="order()">ORDER</button></center>
+
+
+<script src="calc4.js"></script>
+<ul class="main">
+    <div class="topnav">
+      <li>  <a  href="a.html">Home</a></li>
+    <li>  <a  href="cake.html">Cake</a></li>
+      <li><a href="jav.html">Ice cream </a></li>
+      <li><a  href="juice.html">Juices and Drinks</a></li>
+     <li> <a  href="sand.html">Sandwiches</a></li>
+    <li> <a class="active" href="sp.html">Soups</a></li>
+    <li> <a  href="frame.html">Feedback</a></li>
+
+    </div>
+    </ul>
+</body>
+</html>

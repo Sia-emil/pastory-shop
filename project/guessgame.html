@@ -1,0 +1,82 @@
+ <!DOCTYPE html> 
+<html> 
+<head> 
+   
+    <title>Character  Guessing  Game</title> 
+  
+    
+</head> 
+  
+<body> 
+<h1>Guess The Character</h1> 
+  
+<p> GREETINGS! In this game, you will have to guess a famous charater. There is a total of 4 well-known character. You will get only one chance to give in your guess. Kindly use lower case letters.
+For your first clue, press the submit button. </p>
+  
+<form>
+    <label for="guessField">Enter a guess: </label> 
+    <input type = "text" id = "guessField"> 
+    <input type = "button" value = "Submit guess"  id = "submitguess"> 
+</form> 
+  
+<script type = "text/javascript"> 
+
+    var y = Math.floor(Math.random() * 4 + 1); 
+var guess = 1; 
+      var i=1;
+
+function  clue()
+{
+if(y==1 && i==1)
+alert("She was the first woman to win a Nobel Prize, in Physic. She discovered radioactivity.  She became the first person to claim Nobel honors twice");
+else
+if(y==2&& i==1)
+alert("He was an Indian lawyer. He was nominated for the Nobel Peace Prize five times. He is one of the most famous leaders and champions for justice in the world.");
+else
+if(y==3&& i==1)
+alert("She was an American author, disability rights advocate, political activist and lecturer.  She was the first deaf-blind person to earn a Bachelor of Arts degree.   ");
+else
+if(y==4&& i==1)
+alert("He is an Indian former international cricketer who served as captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket. He is the highest run scorer of all time in international cricket, and the only player to have scored one hundred international centuries, the first batsman to score a double century in a One Day International");
+}
+
+
+var c;
+if (y==1)
+c="marie curie";
+else
+if(y==2)
+c="mahatma gandhi";
+else
+if(y==3)
+c="hellen keller";
+else
+if(y==4)
+c="sachin tendulkar";
+
+
+
+
+    document.getElementById("submitguess").onclick = function()
+{      
+   var x =document.getElementById("guessField").value; 
+  
+   if(x == c) 
+   {     
+       alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT "); 
+   } 
+ else
+if(x!=c)
+{
+guess++; 
+if(guess>2)
+{
+alert("GAME OVER!!! BETTER LUCK NEXT TIME");
+return 0;
+}
+clue();
+} 
+}
+</script> 
+</body> 
+</html>  
